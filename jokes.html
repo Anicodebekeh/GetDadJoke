@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d48a9a8490.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Jokes</title>
+</head>
+<body>
+   <header >
+        <nav>
+           <h1> Dad's-Jokes</h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="jokes.html">JOKES</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+            <!-- hamburger -->
+            <i class="fa-solid fa-bars" id="menu"></i>
+            <i class="fa-solid fa-xmark" id="close"></i>
+        </nav>
+        <div class="side-bar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="jokes.html">JOKES</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </div>
+        
+        <div class="joke">
+            <!-- <marquee behavior="" direction=""> <h3>Jokes</h3> </marquee> -->
+            <ul id="jokes-ul"></ul>
+
+        </div>
+
+    </header>
+
+    
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+   <script src="app.js"></script>
+</body>
+</html>
